@@ -1,4 +1,4 @@
-# Pokedex APP
+`# Pokedex APP
 
 Buscador simple de Pokemon
 
@@ -10,3 +10,5 @@ Para la construcción del proyecto se usó:
 * Axios como herramientas para las llamdas http
 * TailwindCSS para el manejo de estilos
 * API de [pokeapi](https://pokeapi.co/)
+
+Puede visualizar la página [aquí](https://pokemon-xi.vercel.app/)

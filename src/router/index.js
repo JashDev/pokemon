@@ -12,7 +12,10 @@ const routes = [
     {
         path: '/',
         name: 'Index',
-        component: Index
+        component: Index,
+        meta: {
+            title: 'Inicio'
+        }
     },
 
     {
@@ -23,11 +26,17 @@ const routes = [
                 path: '/',
                 name: 'AllPokemon',
                 component: AllPokemon,
+                meta: {
+                    title: 'Lista Pokemon'
+                }
             },
             {
                 path: 'favorites',
                 name: 'FavoritePokemon',
                 component: FavoritePokemon,
+                meta: {
+                    title: 'Favoritos'
+                }
             }
         ]
     },
@@ -43,6 +52,11 @@ const router = new VueRouter({
     mode: 'history',
     base: process.env.BASE_URL,
     routes
+})
+
+router.afterEach((to ) => {
+    const { title } = to.meta
+    document.title = `${title} | Pokedex APP`
 })
 
 export default router
