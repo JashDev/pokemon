@@ -42,7 +42,7 @@
           return
         }
 
-        this.pokemonListFiltered = this.pokemonList.filter(p => p.name.toLowerCase().includes(n))
+        this.pokemonListFiltered = this.pokemonList.filter(p => p.name.toLowerCase().includes(n.toLowerCase()))
       }
     },
 

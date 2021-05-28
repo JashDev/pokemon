@@ -9,7 +9,7 @@
 
 <script>
   import PokemonGeneralModel from "../models/pokemon_general.model";
-  import FavoriteStar from "./FavoriteStar";
+  import FavoriteStar from "./FavoriteStarComponent";
 
   export default {
     name: "PokemonGeneralCardComponent",

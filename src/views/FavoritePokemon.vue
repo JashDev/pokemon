@@ -39,7 +39,7 @@
           return
         }
 
-        this.pokemonFavoriteFiltered = this.favoritePokemon.filter(p => p.name.toLowerCase().includes(n))
+        this.pokemonFavoriteFiltered = this.favoritePokemon.filter(p => p.name.toLowerCase().includes(n.toLowerCase()))
       },
 
       favoritePokemon() {
@@ -48,7 +48,7 @@
           return
         }
 
-        this.pokemonFavoriteFiltered = this.favoritePokemon.filter(p => p.name.toLowerCase().includes(this.querySearch))
+        this.pokemonFavoriteFiltered = this.favoritePokemon.filter(p => p.name.toLowerCase().includes(this.querySearch.toLowerCase()))
       }
     },
 

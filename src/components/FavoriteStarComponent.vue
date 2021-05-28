@@ -19,7 +19,7 @@
   import PokemonGeneralModel from "../models/pokemon_general.model";
 
   export default {
-    name: "FavoriteStar",
+    name: "FavoriteStarComponent",
 
     props: {
       pokemon: {

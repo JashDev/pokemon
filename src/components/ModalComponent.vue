@@ -48,7 +48,7 @@
 
 <script>
   import {infoPokemonService} from "../services/pokemon.service";
-  import FavoriteStar from "./FavoriteStar";
+  import FavoriteStar from "./FavoriteStarComponent";
 
   export default {
     name: "ModalComponent",
