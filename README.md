@@ -22,4 +22,5 @@ Para levantar el servidor en modo desarrollo
 ``` yarn serve ```
 
 Para generar los archivos de producción
+
 ``` yarn build ```
