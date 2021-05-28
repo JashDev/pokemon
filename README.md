@@ -1,4 +1,4 @@
-`# Pokedex APP
+# Pokedex APP
 
 Buscador simple de Pokemon
 
@@ -12,3 +12,14 @@ Para la construcción del proyecto se usó:
 * API de [pokeapi](https://pokeapi.co/)
 
 Puede visualizar la página [aquí](https://pokemon-xi.vercel.app/)
+
+Para instalar las dependencias
+
+``` yarn install ```
+
+Para levantar el servidor en modo desarrollo
+
+``` yarn serve ```
+
+Para generar los archivos de producción
+```` yarn build ```
