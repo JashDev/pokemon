@@ -7,9 +7,11 @@
 
       <h1 class="text-center text-[26px] font-bold mb-[30px] max-w-[570px] mx-auto">Welcome to Pokédex</h1>
 
-      <p class="text-[18px] text-center text-pokedex-gray-2 max-w-[570px] mx-auto">
-        The digital encyclopedia created by Professor Oak is an invaluable tool to Trainers in the Pokémon world.
-      </p>
+      <div class="flex justify-center">
+        <p class="text-[18px] text-center text-pokedex-gray-2 max-w-[570px] mx-[30px]">
+          The digital encyclopedia created by Professor Oak is an invaluable tool to Trainers in the Pokémon world.
+        </p>
+      </div>
     </div>
 
     <div class="flex justify-center mb-[157px] sm:mb-0">

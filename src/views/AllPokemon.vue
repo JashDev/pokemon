@@ -32,7 +32,7 @@
       pokemonListFiltered: [],
       fetchingData: false,
 
-      cancelPokeomnList: null
+      cancelPokemonList: null
     }),
 
     watch: {
@@ -51,14 +51,14 @@
     },
 
     beforeDestroy() {
-      this.cancelPokeomnList && this.cancelPokeomnList()
+      this.cancelPokemonList && this.cancelPokemonList()
     },
 
     methods: {
       async loadPokemons() {
         this.fetchingData = true
         try {
-          const {pokemons} = await listPokemonService({cancel: this.cancelPokeomnList})
+          const {pokemons} = await listPokemonService({cancel: this.cancelPokemonList})
           this.pokemonList = pokemons
           this.resetFilter()
         } catch (e) {

@@ -68,6 +68,10 @@
       await this.infoPokemon()
     },
 
+    beforeDestroy() {
+      this.cancelInfoPokemon && this.cancelInfoPokemon()
+    },
+
     methods: {
       async infoPokemon() {
         try {
